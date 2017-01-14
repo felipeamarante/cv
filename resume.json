@@ -60,7 +60,7 @@
       "website": "http://adtsys.com.br",
       "startDate": "2015-06-01",
       "endDate": "2016-05-01",
-      "summary": "Part of DevOps as a Service team. Heavily volatile environments and in constant changes.",
+      "summary": "Part of DevOps as a Service team. Highly volatile environments and in constant changes.",
       "highlights": [
         "CI and CD DevOps using AWS and Google Cloud as cloud platforms.",
         "Responsible for creating deployment and build scripts for customers. Some testing scripts were made as well.",
