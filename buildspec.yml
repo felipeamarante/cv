@@ -1,0 +1,16 @@
+version: 0.2
+
+env:
+  variables:
+    bucket: "cv.felipe.cloud"
+phases:
+  install:
+    commands:
+      - npm install resume-cli
+      - npm install jsonresume-theme-stackoverflow
+  build:
+    commands:
+      - node_modules/.bin/resume export -F --format html --theme stackoverflow index.html
+  post_build:
+    commands:
+        - aws s3 cp --acl public-read index.html s3://${bucket}/index.html
