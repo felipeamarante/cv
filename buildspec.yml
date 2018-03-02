@@ -1,9 +1,5 @@
 version: 0.2
 
-env:
-  variables:
-    bucket: "cv.felipe.cloud"
-    theme: "stackoverflow"
 phases:
   install:
     commands:
