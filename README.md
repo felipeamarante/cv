@@ -8,14 +8,20 @@ http://cv.felipe.cloud
 
 ## Usage
 
-  - Clone this repo, change your resume.json with your details obviously  
+  - Fork this repo, change your resume.json with your details obviously, push to your fork.
     - Schema can be found here : https://jsonresume.org/schema/  
-  - Select your bucket and your theme, then populate at environment variables in buildspec.yml  
-    - Themes -> https://jsonresume.org/themes/  
-  - Create a CodeBuild Project in your AWS Account and Reference your Github Repository. You can enable webhooks if you want this to happen in automated fashion  
-    - https://docs.aws.amazon.com/codebuild/latest/userguide/create-project.html  
-  - Have fun!  
+  - Install latest version of terraform and configure properly with your AWS Access and Secret Keys
+    - https://www.terraform.io/intro/getting-started/install.html
+  - Change the variables at project.tf (Your repo https clone url, bucket name, GitHub Personal Access Token, resume theme)
+    - Themes : https://jsonresume.org/themes/
+    - Personal Access Token : https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
+  - terraform init
+  - terraform apply
+  - Build your project at CodeBuild, check if everything went as expected in the logs.
+    - You can alternatively configure webhooks in your CodeBuild (not yet supported by TF)
+  - Enjoy your new beautiful CV
 
+  
 Thanks  
 Felipe A.
 
