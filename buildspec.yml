@@ -8,7 +8,7 @@ phases:
   build:
     commands:
       - node_modules/.bin/resume export -F --format html --theme ${theme} index.html
-      - node_modules/.bin/resume export -F --format pdf --there ${theme} cv.pdf
+      - node_modules/.bin/resume export -F --format pdf --theme ${theme} cv.pdf
   post_build:
     commands:
         - aws s3 cp --acl public-read index.html s3://${bucket}/index.html
