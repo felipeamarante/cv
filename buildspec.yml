@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - npm install resume-cli
-      - npm install jsonresume-theme-${theme}
+      - npm install jsonresume-theme-${theme} jsonresume-theme-spartan
   build:
     commands:
       - node_modules/.bin/resume export -F --format html --theme ${theme} index.html
