@@ -12,9 +12,10 @@ http://cv.felipe.cloud
     - Schema can be found here : https://jsonresume.org/schema/  
   - Install latest version of terraform and configure properly with your AWS Access and Secret Keys
     - https://www.terraform.io/intro/getting-started/install.html
-  - Change the variables at project.tf (Your repo https clone url, bucket name, GitHub Personal Access Token, resume theme)
+  - Change the variables at project.tf (Your repo https clone url, bucket name, resume theme)
     - Themes : https://jsonresume.org/themes/
-    - Personal Access Token : https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
+  - You also need to connect your GitHub account with your CodeBuild:
+    - Instructions : You must connect your AWS account to your GitHub account. To do this, use the AWS CodeBuild console to create a build project. When you use the console to connect (or reconnect) with GitHub, on the GitHub Authorize application page, for Organization access, choose Request access next to each repository you want AWS CodeBuild to be able to access. Choose Authorize application. (After you have connected to your GitHub account, you do not need to finish creating the build project. You can close the AWS CodeBuild console.) To instruct AWS CodeBuild to use this connection, in the source object, set the auth object's type value to OAUTH. 
   - terraform init
   - terraform apply
   - Build your project at CodeBuild, check if everything went as expected in the logs.

@@ -17,11 +17,6 @@ variable "github_repo" {
   type = "string"
 }
 
-variable "github_token" {
-  default = "yourh4x0rkey"
-  type = "string"
-}
-
 resource "aws_iam_role" "codebuild_role" {
   name = "codebuild-role-cv"
 
@@ -145,7 +140,6 @@ resource "aws_codebuild_project" "CodeBuildProject" {
 
     auth {
     type = "OAUTH"
-    resource = "${var.github_token}"
     }
   }
 }
