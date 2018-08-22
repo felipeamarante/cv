@@ -1,191 +1,235 @@
 {
-  "basics": {
-    "name": "Sebastian Collins",
-    "label": "Cloud Specialist",
-    "picture": "",
-    "email": "sebbycollins@gmail.com",
-    "phone": "+27 \(0\)73 1011 521",
-    "website": "https://github.com/Seblat5ch/cv",
-    "summary": "To fully explore my technological passions in the information era, by discovering and implementing the latest breakthroughs in the field. To help better the lives of my peers and peoples, while inspiring them grow and build on their innovations and completing their visions. I am playing my part to be responsible for driving the development and adoption of CLOUD services across Southern Africa and the world. I’d like to combine my passion and enthusiasm with my creativity and generate grass-roots attention about the CLOUD.",
-    "location": {
-      "address": "Southern Suburbs",
-      "postalCode": "7708",
-      "city": "Cape Town",
-      "countryCode": "ZA",
-      "region": "Western Cape"
-    },
-    "profiles": [
-      {
-        "network": "Facebook",
-        "username": "fe.amarante",
-        "url": "https://www.facebook.com/fe.amarante"
-      },
-      {
-        "network": "Linkedin",
-        "username": "felipeamarante",
-        "url": "https://za.linkedin.com/in/felipeamarante"
-      }
-    ]
-  },
-  "work": [
-    {
-      "company": "AWS",
-      "position": "Cloud Engineer",
-      "website": "https://aws.amazon.com",
-      "startDate": "2016-07-01",
-      "endDate": "",
-      "summary": "AWS Support provides a unique combination of tools and expertise to help you do amazing things with AWS.",
-      "highlights": [
-        "Broad expertise on most of AWS Services",
-        "Always in touch with new AWS Services and technologies"
-      ]
-    },
+	"basics": {
+		"name": "Sebastian Collins",
+		"label": "Cloud Specialist",
+		"picture": "",
+		"email": "sebbycollins@gmail.com",
+		"phone": "+27 (0)73 1011 521",
+		"website": "https://github.com/Seblat5ch/cv",
+		"summary": "To fully explore my technological passions in the information era, by discovering and implementing the latest breakthroughs in the field. To help better the lives of my peers and peoples, while inspiring them grow and build on their innovations and completing their visions. I am playing my part to be responsible for driving the development and adoption of CLOUD services across Southern Africa and the world. I’d like to combine my passion and enthusiasm with my creativity and generate grass-roots attention about the CLOUD.",
+		"location": {
+			"address": "Southern Suburbs",
+			"postalCode": "7708",
+			"city": "Cape Town",
+			"countryCode": "ZA",
+			"region": "Western Cape"
+		},
+		"profiles": [{
+			"network": "Facebook",
+			"username": "Seblat5ch",
+			"url": "https://www.facebook.com/Seblat5ch"
+		}]
+	},
+	"work": [{
+			"company": "AWS",
+			"position": "Cloud Support Engineer I, II",
+			"website": "https://aws.amazon.com",
+			"startDate": "2015-10-05",
+			"endDate": "2018-12-31",
+			"summary": "AWS Support provides a unique combination of tools and expertise to help you plan, deploy, and optimize with confidence, giving you proactive guidance, best practices, launch support by highly skilled experts in the field.",
+			"highlights": [
+				"Managing scale like never seen before. Dealing with unique customer issues which affect 10s of millions customers.",
+				"Teaching new hires and entrepreneurs about the mind boggling value proposition of the cloud and seeing them bring new ideas to life.",
+				"Working with some of the biggest companies in the world to help them solve their problems.",
+				"Building Documentation, Whitepapers and Demos.",
+				"Designing and building fully-fledged architectures with cloud technologies, such as CloudFormation, encompassing CI/CD DevOps practices",
+				"Speaking at recruitment, university and customer engagements. From basic topics on the cloud to advanced topics such as managing large scale clusters though CI/CD pipelines."
+			]
+		},
 
-    {
-      "company": "Cloudlet",
-      "position": "Founder",
-      "website": "http://cloudlet.com.br",
-      "startDate": "2014-05-01",
-      "endDate": "",
-      "summary": "Cloud consulting and Cloud Advising Company.",
-      "highlights": [
-        "Evangelizing Cloud Computign to small to medium sized companies",
-        "Creation of cost-benefit highly available SaaS."
-      ]
-    },
+		{
+			"company": "Syrex",
+			"position": "Linux and VOIP Administrator/Engineer",
+			"website": "https://syrex.co.za",
+			"startDate": "2014-05-01",
+			"endDate": "2015-09-30",
+			"summary": "Provide complete, client inspired IT solutions, using the latest technologies and products.",
+			"highlights": [
+				"Working with large South African enterprises around the country supporting and building their VOIP requirements.",
+				"Deploying standardized deployments across 100s of servers and switches around Southern Africa"
+			]
+		},
+		{
+			"company": "Syrex",
+			"position": "Permanent Onsite Support Engineer (Knights Preparatory School)",
+			"website": "https://syrex.co.za",
+			"startDate": "2015-03-01",
+			"endDate": "2015-09-30",
+			"summary": "Permanently based at the school to provide and maintain their network.",
+			"highlights": [
+				"Working on large fleets of Apple products (iPads) for the children.",
+				"Ensuring school Microsoft SAM requirements were met."
+			]
+		},
+		{
+			"company": "Syrex",
+			"position": "Onsite Support Engineer",
+			"website": "https://syrex.co.za",
+			"startDate": "2012-02-21",
+			"endDate": "2014-05-01",
+			"summary": "Support, maintain and install the IT requirements at customers around South Africa",
+			"highlights": [
+				"Finding creative solutions to make 8-bit factory milling software run on 64-bit operating systems.",
+				"Installing networking equipment, linking buildings and configuring devices.",
+				"MPLS, Wireless, Lan, Security and WAN troubleshooting."
+			]
+		},
+		{
+			"company": "FaberCollins Travel Services",
+			"position": "IT Manager",
+			"website": "https://fabercollinstravel.com",
+			"startDate": "2010",
+			"endDate": "Current",
+			"summary": "Provide support, maintenance and installation of IT requirements.",
+			"highlights": [
+				"Migration from POP to Office 365",
+				"Installation of FTTB",
+				"Wireless, Lan, Security and WAN troubleshooting."
+			]
+		}
+	],
+	"education": [{
+			"institution": "Deutsche Internationale Schule Johannesburg",
+			"startDate": "2003",
+			"endDate": "2011"
+		},
+		{
+			"institution": "Franz-Anton Maulbertsch Schule",
+			"location": "Germany",
+			"startDate": "1999",
+			"endDate": "2003"
+		},
+		{
+			"institution": "Deutsche Internationale Schule Johannesburg",
+			"location": "South Africa",
+			"startDate": "1997",
+			"endDate": "1999"
+		}
+	],
+	"Qualifications": [{
+			"title": "70-689: Upgrading Your Skills to MCSA Windows 8",
+			"date": "2014-08-18",
+			"awarder": "Microsoft",
+			"summary": "Official Certification"
+		},
+		{
+			"title": "70-321: Deploying Office 365",
+			"date": "2014-03-27",
+			"awarder": "Microsoft",
+			"summary": "Official Certification"
+		},
+		{
+			"title": "70-323: Administering Office 365",
+			"date": "2013-11-18",
+			"awarder": "Microsoft",
+			"summary": "Official Certification"
+		},
+		{
+			"title": "70-686: Windows 7, Enterprise Desktop Administrator",
+			"date": "2013-06-05",
+			"awarder": "Microsoft",
+			"summary": "Official Certification"
+		},
+		{
+			"title": "70-680: Windows 7, Configuring",
+			"date": "2013-04-03",
+			"awarder": "Microsoft",
+			"summary": "Official Certification"
+		},
+		{
+			"title": "National Senior Certificate (NSC) - Matric",
+			"date": "2011-12-01",
+			"awarder": "UMALUSI Council for Quality Assurance in General and Further Education and Training",
+			"summary": "The (NSC) examinations commonly referred to as “matric” has become an annual event of major public significance. It not only signifies the culmination of twelve years of formal schooling but the NSC examinations is a barometer of the health of the education system."
+		},
+		{
+			"title": "Deutsches Sprachdiplom (DSD) II",
+			"date": "2011-12-01",
+			"awarder": "Deutsche Internationale Schule Johannesburg",
+			"summary": "DSD II, is an official German language certificate of the German education authorities and the Foreign Office (Germany) certifying levels of knowledge of the German language in schools worldwide."
+		}
 
-    {
-      "company": "ADTsys",
-      "position": "DevOps Engineer",
-      "website": "http://adtsys.com.br",
-      "startDate": "2015-06-01",
-      "endDate": "2016-05-01",
-      "summary": "Part of DevOps as a Service team. Highly volatile environments and in constant changes.",
-      "highlights": [
-        "CI and CD DevOps using AWS and Google Cloud as cloud platforms.",
-        "Responsible for creating deployment and build scripts for customers. Some testing scripts were made as well.",
-        "AWS Account lifecycle and housekeeping responsible. Made scripts to check for unused resources and cut down expenses."
-      ]
-    },
+	],
 
-    {
-      "company": "BT",
-      "position": "Network Engineer II",
-      "website": "http://btplc.com",
-      "startDate": "2012-11-01",
-      "endDate": "2015-05-01",
-      "summary": "BT Global Services team. Responsible for taking care of enterprise customers outsourced network services.",
-      "highlights": [
-        "3rd and 2nd Tier support for enterprise customers.",
-        "Responsible for Critical and Urgent Incidents, changes and problems.",
-        "MPLS, Wireless, Lan, Security and WAN troubleshooting."
-      ]
-    }
+	"Awards": [{
+			"title": "Runner-up in National and Provincial Competitions in Mind sports South Africa (MSSA)",
+			"date": "2010",
+			"awarder": "Mind sports South Africa",
+			"summary": "Official Certification"
+		},
+		{
+			"title": "World Cyber Games (WCG) 2nd in Qualification Round (2010)",
+			"date": "2010",
+			"awarder": "World Cyber Games",
+			"summary": "Official Certification"
+		}
 
-  ],
-  "education": [
-    {
-      "institution": "FATEC",
-      "area": "Information Technology",
-      "studyType": "Superior",
-      "startDate": "2009-01-01",
-      "endDate": "2013-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "CISCO - CCNA",
-        "Python Scripting"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "AWS Certified Solutions Architect",
-      "date": "2014-04-01",
-      "awarder": "AWS",
-      "summary": "Oficial Certification"
-    },
+	],
 
-    {
-      "title": "AWS Certified SysOps",
-      "date": "2015-09-01",
-      "awarder": "AWS",
-      "summary": "Oficial Certification"
-    }
+	"skills": [{
+			"name": "Cloud Computing",
+			"level": "Master",
+			"keywords": [
+				"AWS"
+			]
+		},
+		{
+			"name": "DevOps",
+			"level": "Advanced",
+			"keywords": [
+				"CloudFormation",
+				"CodeSuite (AWS)",
+				"Containerization"
+			]
+		},
+		{
+			"name": "Coding",
+			"level": "Intermediate",
+			"keywords": [
+				"Python",
+				"Node.js",
+				"Bash/Shell Script",
+				"GIT"
+			]
+		},
+		{
+			"name": "Evangelize",
+			"level": "Advanced",
+			"keywords": [
+				"Customer handling",
+				"Knowledge transfer",
+				"Technical recruitment",
+				"Problem solving"
+			]
+		}
+	],
+	"languages": [{
+			"language": "English",
+			"fluency": "Native Speaker"
+		},
 
+		{
+			"language": "German",
+			"fluency": "Native Speaker"
+		},
+		{
+			"language": "Afrikaans",
+			"fluency": "Fluent"
+		}
 
-  ],
-
-  "skills": [
-    {
-      "name": "Cloud Computing",
-      "level": "Master",
-      "keywords": [
-        "AWS",
-        "GCP",
-        "Open Stack"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "level": "Advanced",
-      "keywords": [
-        "Ansible",
-        "Terraform",
-        "Service Reliability"
-      ]
-    },
-    {
-      "name": "Coding",
-      "level": "Intermediate",
-      "keywords": [
-        "Python",
-        "Bash/Shell Script",
-        "GIT"
-      ]
-    },
-
-    {
-      "name": "Soft Skill",
-      "level": "Advanced",
-      "keywords": [
-        "Customer Handling",
-        "Knowledge Transfer",
-        "Technical Recruitment"
-      ]
-    }
-
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-
-    {
-      "language": "Portugese",
-      "fluency": "Native Speaker"
-    }
-
-  ],
-  "interests": [
-    {
-      "name": "Technology",
-      "keywords": [
-        "Open Source",
-        "Hacking",
-        "Trending"
-      ]
-    },
-
-    {
-      "name": "Sports",
-      "keywords": [
-        "Tennis",
-        "Football",
-        "Beer Drinking"
-      ]
-    }
+	],
+	"interests": [{
+			"name": "Technology",
+			"keywords": [
+				"Open Source",
+				"Autonomous and electric vehicles",
+				"Hacking and modifying",
+				"Cutting edge",
+				"Serverless",
+				"Internet of Things (IoT)"
+			]
+		}
 
 
-  ]
+	]
 }

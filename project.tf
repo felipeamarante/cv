@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 variable "bucket_name" {
-  default = "your.bucket.here"
+  default = "cv.tesemdogtraining.ga"
   type = "string"
 }
 
@@ -13,12 +13,12 @@ variable "resume_theme" {
 }
 
 variable "github_repo" {
-  default = "https://github.com/felipeamarante/cv.git"
+  default = "https://github.com/Seblat5ch/cv.git"
   type = "string"
 }
 
 variable "github_token" {
-  default = "yourh4x0rkey"
+  default = "193265022b7d3102efde222795277b5da1769ae2 "
   type = "string"
 }
 
@@ -145,7 +145,6 @@ resource "aws_codebuild_project" "CodeBuildProject" {
 
     auth {
     type = "OAUTH"
-    resource = "${var.github_token}"
     }
   }
 }
