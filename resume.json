@@ -4,8 +4,8 @@
     "label": "Cloud Specialist - Ninja",
     "picture": "",
     "email": "felipeamarante@gmail.com",
-    "phone": "+27 079 156 1966",
-    "website": "http://felipe.cloudlet.com.br",
+    "phone": "+27 79 156 1966",
+    "website": "https://github.com/felipeamarante/cv",
     "summary": "Challenge driven professional with repetitive tasks phobia + coffee connoisseur. ",
     "location": {
       "address": "CBD",
@@ -106,17 +106,10 @@
     },
 
     {
-      "title": "AWS Certified SysOps ",
+      "title": "AWS Certified SysOps",
       "date": "2015-09-01",
       "awarder": "AWS",
       "summary": "Oficial Certification"
-    },
-
-    {
-      "title": "ITIL V4",
-      "date": "2013-10-01",
-      "awarder": "Exin",
-      "summary": "ITIL Foundation"
     }
 
 
@@ -137,7 +130,7 @@
       "level": "Advanced",
       "keywords": [
         "Ansible",
-        "Jenkins",
+        "Terraform",
         "Service Reliability"
       ]
     },
@@ -157,7 +150,7 @@
       "keywords": [
         "Customer Handling",
         "Knowledge Transfer",
-        "Solution Design"
+        "Technical Recruitment"
       ]
     }
 
