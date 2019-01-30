@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
+      - apt-get install -y wkhtmltopdf
       - npm install resume-cli
       - npm install jsonresume-theme-${theme} jsonresume-theme-onepage
   build:
