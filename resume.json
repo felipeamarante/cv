@@ -80,6 +80,34 @@
         "Responsible for Critical and Urgent Incidents, changes and problems.",
         "MPLS, Wireless, Lan, Security and WAN troubleshooting."
       ]
+    },
+
+    {
+      "company": "AT&T",
+      "position": "Network Engineer",
+      "website": "http://att.com",
+      "startDate": "2010-11-01",
+      "endDate": "2012-11-01",
+      "summary": "Network Engineer, Supporting WAN/LAN/Wireless IP Services",
+      "highlights": [
+        "1st and 2nd Tier support for enterprise customers.",
+        "Responsible for Critical and Urgent Incidents, changes and problems.",
+        "MPLS, Wireless, Lan, Security and WAN troubleshooting."
+      ]
+    },
+
+    {
+      "company": "IBM",
+      "position": "Linux Support",
+      "website": "http://ibm.com",
+      "startDate": "2009-12-01",
+      "endDate": "2010-11-01",
+      "summary": "Linux Support",
+      "highlights": [
+        "1st Line support for Linux Issues",
+        "Internal customer facing support",
+        "Linux, AIX, HP-UX, Unix, AS400, Solaris - General Troubleshooting"
+      ]
     }
 
   ],
