@@ -3,14 +3,11 @@ version: 0.2
 phases:
   install:
     commands:
-      - apt-get install -y wkhtmltopdf
       - npm install resume-cli
-      - npm install jsonresume-theme-${theme} jsonresume-theme-onepage
+      - npm install jsonresume-theme-${theme}
   build:
     commands:
       - node_modules/.bin/resume export -F --format html --theme ${theme} index.html
-      - node_modules/.bin/resume export -F --format pdf --theme onepage cv.pdf
   post_build:
     commands:
-        - aws s3 cp --acl public-read index.html s3://${bucket}/index.html
-        - aws s3 cp --acl public-read cv.pdf s3://${bucket}/cv.pdf
+      - aws s3 cp --acl public-read index.html s3://${bucket}/index.html
