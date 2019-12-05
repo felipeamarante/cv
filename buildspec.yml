@@ -3,12 +3,12 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm install resume-cli
-      - npm install jsonresume-theme-${theme}
+      - npm install resume-cli@1.1.2
+      - npm install jsonresume-theme-${theme}@1.4.0
   build:
     commands:
       - node_modules/.bin/resume --help
-      - node_modules/.bin/resume export --format html --theme ${theme} index.html
+      - node_modules/.bin/resume export -F --format html --theme ${theme} index.html
   post_build:
     commands:
       - aws s3 cp --acl public-read index.html s3://${bucket}/index.html
