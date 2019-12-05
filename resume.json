@@ -30,14 +30,15 @@
   "work": [
     {
       "company": "AWS",
-      "position": "Cloud Engineer",
+      "position": "Cloud Engineer II",
       "website": "https://aws.amazon.com",
       "startDate": "2016-07-01",
       "endDate": "",
-      "summary": "AWS Support provides a unique combination of tools and expertise to help you do amazing things with AWS.",
+      "summary": "Part of the DevOps team of AWS Support. Assisting enterprise customers like - Disney, Netflix, Siemens, Shell, Amazon.com to use all AWS Services related to DevOps methodology. ",
       "highlights": [
-        "Broad expertise on most of AWS Services",
-        "Always in touch with new AWS Services and technologies"
+        "Lead Subject Matter Expert in all AWS CodeServices",
+        "Face to Face customer engagements with C-Level Executives",
+        "Working with Solutions Architect Team at AWS Public Events"
       ]
     },
 
@@ -46,8 +47,8 @@
       "position": "Founder",
       "website": "http://cloudlet.com.br",
       "startDate": "2014-05-01",
-      "endDate": "",
-      "summary": "Cloud consulting and Cloud Advising Company.",
+      "endDate": "2016-07-01",
+      "summary": "Founded an Startup Company that offered Cloud Migration Services to SMB.",
       "highlights": [
         "Evangelizing Cloud Computign to small to medium sized companies",
         "Creation of cost-benefit highly available SaaS."
@@ -60,25 +61,25 @@
       "website": "http://adtsys.com.br",
       "startDate": "2015-06-01",
       "endDate": "2016-05-01",
-      "summary": "Part of DevOps as a Service team. Highly volatile environments and in constant changes.",
+      "summary": "DevOps Engineer assisting the Operations Team and interfacing with customers like Ab-Inbev and Fiat",
       "highlights": [
-        "CI and CD DevOps using AWS and Google Cloud as cloud platforms.",
-        "Responsible for creating deployment and build scripts for customers. Some testing scripts were made as well.",
-        "AWS Account lifecycle and housekeeping responsible. Made scripts to check for unused resources and cut down expenses."
+        "Designed and Implemented the entire CICD Environment for large E-Commerce Platforms",
+        "Coded Custom Saltstack Modules to acomodade customer requirements",
+        "Created a log aggregation internal product that ran checks and suggested billing optimization tasks across 100+ different AWS Accounts."
       ]
     },
 
     {
-      "company": "BT",
+      "company": "British Telecom",
       "position": "Network Engineer II",
       "website": "http://btplc.com",
       "startDate": "2012-11-01",
       "endDate": "2015-05-01",
-      "summary": "BT Global Services team. Responsible for taking care of enterprise customers outsourced network services.",
+      "summary": "BT Global Services team. Network Engineer Supporting WAN/LAN/WLAN/MPLS for Enterprise Customers.",
       "highlights": [
-        "3rd and 2nd Tier support for enterprise customers.",
+        "3rd and 2nd Tier technical support for enterprise customers.",
         "Responsible for Critical and Urgent Incidents, changes and problems.",
-        "MPLS, Wireless, Lan, Security and WAN troubleshooting."
+        "Cisco Remote Assistance for Field Engineers and Troubleshooting"
       ]
     },
 
@@ -90,9 +91,9 @@
       "endDate": "2012-11-01",
       "summary": "Network Engineer, Supporting WAN/LAN/Wireless IP Services",
       "highlights": [
-        "1st and 2nd Tier support for enterprise customers.",
-        "Responsible for Critical and Urgent Incidents, changes and problems.",
-        "MPLS, Wireless, Lan, Security and WAN troubleshooting."
+        "1st and 2nd Tier Technical Support.",
+        "Worked as point of contact for hardware replacement Assistance and Wan Circuit Troubleshooting",
+        "MPLS, Wireless, Lan, Security and WAN troubleshooting - Cisco, Aruba and Juniper appliances"
       ]
     },
 
@@ -105,8 +106,8 @@
       "summary": "Linux Support",
       "highlights": [
         "1st Line support for Linux Issues",
-        "Internal customer facing support",
-        "Linux, AIX, HP-UX, Unix, AS400, Solaris - General Troubleshooting"
+        "Internal customer technical support - General Troubleshooting, Backup, System Administration",
+        "Linux, AIX, HP-UX, Unix, AS400, Solaris"
       ]
     }
 
@@ -127,6 +128,18 @@
   ],
   "awards": [
     {
+      "title": "AWS Certified Solutions Architect - Professional",
+      "date": "2019-12-07",
+      "awarder": "AWS",
+      "summary": "Oficial Certification"
+    },
+    {
+      "title": "AWS Certified DevOps - Professional",
+      "date": "2019-12-07",
+      "awarder": "AWS",
+      "summary": "Oficial Certification"
+    },
+    {
       "title": "AWS Certified Solutions Architect",
       "date": "2014-04-01",
       "awarder": "AWS",
@@ -137,6 +150,24 @@
       "title": "AWS Certified SysOps",
       "date": "2015-09-01",
       "awarder": "AWS",
+      "summary": "Oficial Certification"
+    },
+    {
+      "title": "AWS Certified Developer",
+      "date": "2019-12-05",
+      "awarder": "AWS",
+      "summary": "Oficial Certification"
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "date": "2019-12-06",
+      "awarder": "AWS",
+      "summary": "Oficial Certification"
+    },
+    {
+      "title": "ITIL V4",
+      "date": "2013-08-27",
+      "awarder": "EXIN",
       "summary": "Oficial Certification"
     }
 
@@ -164,7 +195,7 @@
     },
     {
       "name": "Coding",
-      "level": "Intermediate",
+      "level": "Advanced",
       "keywords": [
         "Python",
         "Bash/Shell Script",
@@ -173,12 +204,12 @@
     },
 
     {
-      "name": "Soft Skill",
-      "level": "Advanced",
+      "name": "Solutions Architecture",
+      "level": "Master",
       "keywords": [
-        "Customer Handling",
-        "Knowledge Transfer",
-        "Technical Recruitment"
+        "Enterprise Migrations",
+        "New Cloud-Ready Solutions Design",
+        "Hybrid Solutions Design"
       ]
     }
 
@@ -192,7 +223,11 @@
     {
       "language": "Portugese",
       "fluency": "Native Speaker"
-    }
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Beginner"
+    },
 
   ],
   "interests": [
