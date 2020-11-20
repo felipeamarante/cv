@@ -30,10 +30,23 @@
   "work": [
     {
       "company": "AWS",
+      "position": "Partner Solutions Architec,
+      "website": "https://aws.amazon.com",
+      "startDate": "2016-06-01",
+      "endDate": "",
+      "summary": "Responsible for enabling partners to build innovative well architected solutions in AWS",
+      "highlights": [
+        "Technical Trusted Advisor for multiple ISVs and System Integrators",
+        "Working with Senior Leadership to build innovative solutions and solve big problems",
+        "Enabling Partners to deliver the AWS excellence to our customers"
+      ]
+    },
+    {
+      "company": "AWS",
       "position": "Cloud Engineer II",
       "website": "https://aws.amazon.com",
       "startDate": "2016-07-01",
-      "endDate": "",
+      "endDate": "2020-06-01",
       "summary": "Part of the DevOps team of AWS Support. Assisting enterprise customers like - Disney, Netflix, Siemens, Shell, Amazon.com to use all AWS Services related to DevOps methodology. ",
       "highlights": [
         "Lead Subject Matter Expert in all AWS CodeServices",
